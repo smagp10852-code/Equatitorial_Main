@@ -121,13 +121,7 @@ const whyChooseUs = [
   { icon: BarChart3, title: 'Proven Results', description: 'Track record of delivering measurable growth and ROI for our clients.' },
 ];
 
-// Social Links
-const socialLinks = [
-  { icon: Facebook, link: "https://facebook.com" },
-  { icon: Instagram, link: "https://instagram.com" },
-  { icon: Linkedin, link: "https://linkedin.com" },
-  { icon: Twitter, link: "https://twitter.com" },
-];
+
 
 // Blog posts
 const blogPosts = [
@@ -556,9 +550,8 @@ const LandingPage = () => {
               <div className="space-y-4 md:space-y-6 mb-8">
                 {[
                   { icon: MapPin, label: 'Address', text: 'FDRK4555, Compass Building, Al Shohada Road, AL Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE' },
-                  { icon: Phone, label: 'Phone', text: '+971 00 000 0000' },
+                  { icon: Phone, label: 'Phone', text: '+971 542423283' },
                   { icon: Mail, label: 'Email', text: 'info@equatorialit.com' },
-                  { icon: Clock, label: 'Working Hours', text: 'Sunday - Thursday: 9AM - 6PM' },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-3 md:gap-4">
                     <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -631,20 +624,7 @@ const LandingPage = () => {
               <p className="text-xs md:text-sm text-background/70 leading-relaxed mb-3 md:mb-4">
                 Complete IT service and support provider offering comprehensive solutions for businesses in the UAE.
               </p>
-              <div className="flex gap-2 md:gap-3">
-                {socialLinks.map(({ icon: Icon, link }, i) => (
-                  <a
-                    key={i}
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-8 h-8 md:w-9 md:h-9 rounded-md bg-background/10 flex items-center justify-center text-background/70 hover:bg-primary hover:text-primary-foreground transition-colors cursor-pointer"
-                  >
-                    <Icon size={14} className="md:hidden" />
-                    <Icon size={16} className="hidden md:block" />
-                  </a>
-                ))}
-              </div>
+              
             </div>
             <div>
               <h4 className="font-semibold mb-3 md:mb-4 text-sm md:text-base">Services</h4>
@@ -666,7 +646,7 @@ const LandingPage = () => {
               <h4 className="font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact Info</h4>
               <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-background/70">
                 <li className="flex items-start gap-2"><MapPin size={14} className="mt-0.5 flex-shrink-0" /> AL Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE</li>
-                <li className="flex items-center gap-2"><Phone size={14} /> +971 00 000 0000</li>
+                <li className="flex items-center gap-2"><Phone size={14} /> +971 542423283</li>
                 <li className="flex items-center gap-2"><Mail size={14} /> info@equatorialit.com</li>
               </ul>
             </div>

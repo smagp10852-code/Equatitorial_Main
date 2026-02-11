@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Phone } from 'lucide-react';
 
 const CallButton = () => {
-  const phoneNumber = '+971000000000';
+  const phoneNumber = '+971542423283';
 
   return (
     <motion.a
