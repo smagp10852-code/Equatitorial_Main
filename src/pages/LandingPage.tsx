@@ -551,7 +551,7 @@ const LandingPage = () => {
                 {[
                   { icon: MapPin, label: 'Address', text: 'FDRK4555, Compass Building, Al Shohada Road, AL Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE' },
                   { icon: Phone, label: 'Phone', text: '+971 542423283' },
-                  { icon: Mail, label: 'Email', text: 'info@equatorialit.com' },
+                  { icon: Mail, label: 'Email', text: ' equatorialitservice@gmail.com' },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-3 md:gap-4">
                     <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
