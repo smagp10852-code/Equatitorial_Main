@@ -647,7 +647,7 @@ const LandingPage = () => {
               <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-background/70">
                 <li className="flex items-start gap-2"><MapPin size={14} className="mt-0.5 flex-shrink-0" /> AL Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE</li>
                 <li className="flex items-center gap-2"><Phone size={14} /> +971 542423283</li>
-                <li className="flex items-center gap-2"><Mail size={14} /> info@equatorialit.com</li>
+                <li className="flex items-center gap-2"><Mail size={14} /> equatorialitservice@gmail.com</li>
               </ul>
             </div>
           </div>
